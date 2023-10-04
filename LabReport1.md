@@ -2,7 +2,7 @@
 ## 1. Example of using the command with no arguments
 a)　Using cd command
 
-![Image]()
+![Image](cd.png)
 
 * **Working Directory**: /home
 * **Why this output**: When changing directory without assigning any path, it changes to 
