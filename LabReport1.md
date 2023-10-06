@@ -21,7 +21,7 @@ c)　Using cat command
 ![Image](cat.png)
 
 * **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it prints the content of null, since there was no argument. This is why the output was null.
+* **Why This Output**: When using this command, it tried to print the content of the argument. Since theer was not any argument the output was nothing and the terminal is waiting for the next input.
 * **Error?** : The output is not an error.
 
 ## 2. Example of using the command with a path to a directory as an argument
