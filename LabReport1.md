@@ -21,7 +21,7 @@
 ![Image](cat.png)
 
 * **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it tried to print the content of the argument. Since theer was not any argument the output was nothing and the terminal is waiting for the next input.
+* **Why This Output**: When using this command, it tried to print the content of the file(s) of the argument. Since theer was not any argument, the output was nothing and the terminal is waiting for the next input.
 * **Error?** : The output is not an error.
 
 ## 2. Example of using the command with a path to a directory as an argument
@@ -38,7 +38,7 @@
 ![Image](ls%20directory.png)
 
 * **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it shows the files and folders inside the given directory in the argument, lecture1. This is why the output was , as seen in the screenshot.
+* **Why This Output**: When using this command, it shows the files and folders inside the given directory in the argument, lecture1. This is why the output was "Hello.class Hello.java messages README", as seen in the screenshot.
 * **Error?** : The output is not an error.
 
 **3.　Using cat command**
@@ -46,8 +46,8 @@
 ![Image](cat%20directory.png)
 
 * **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it prints the content of null, since there was no argument. This is why the output was null.
-* **Error?** : The output is not an error.
+* **Why This Output**: When using this command, it tried to print the content of the file(s) of the argument. Since the argument was a directory, it could not print out its content and sent an error message, as seen in the screenshot
+* **Error?** : The output is an error because cat is meant to take file(s) as an argument and not a directory.
 
 ## 3. Example of using the command with a path to a file as an argument
 **1.　Using cd command**
@@ -55,21 +55,21 @@
 ![Image](cd%20file.png)
 
 * **Working Directory**: The working directory was /home/lecture1.
-* **Why This Output**: When using this command, it sets the directory to /home. This is why the directory was moved from lecture1 to home, as seen in the screenshot.
-* **Error?** : The output is not an error.
+* **Why This Output**: When using this command, it sets the working directory to the directory in the argument.Since the argument is a file and not a directory, it sents out an error message, as seen in the screenshot.
+* **Error?** : The output an error because the cd is meant to directory/no argument as an argument and not a file.
 
 **2.　Using ls command**
 
 ![Image](ls%20file.png)
 
-* **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it shows the files and folders inside the current working directory. This is why the output was lecture1, as seen in the screenshot.
+* **Working Directory**: The working directory was /home/lecture1.
+* **Why This Output**: When using this command, it shows the files and folders inside the file in the argument. This is why the output was Hello.java, as seen in the screenshot.
 * **Error?** : The output is not an error.
 
 **3.　Using cat command**
 
 ![Image](cat%20file.png)
 
-* **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it prints the content of null, since there was no argument. This is why the output was null.
+* **Working Directory**: The working directory was /home/lecture1.
+* **Why This Output**: When using this command, it prints the content of the file. This is why all the codes in Hello.java was printed out, as seen in the screenshot.
 * **Error?** : The output is not an error.
