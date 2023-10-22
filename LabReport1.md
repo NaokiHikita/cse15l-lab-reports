@@ -21,7 +21,7 @@
 ![Image](cat.png)
 
 * **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it tried to print the content of the file(s) of the argument. Since theer was not any argument, the output was nothing and the terminal is waiting for the next input.
+* **Why This Output**: When using this command, it tried to print the content of the file(s) of the argument. Since there was not any argument, the output was nothing and the terminal is waiting for the next input. When something is typed in here, it prints out the input into a new line. This was resolved using 'Ctrl + C'. 
 * **Error?** : The output is not an error.
 
 ## 2. Example of using the command with a path to a directory as an argument
@@ -63,7 +63,7 @@
 ![Image](ls%20file.png)
 
 * **Working Directory**: The working directory was /home/lecture1.
-* **Why This Output**: When using this command, it shows the files and folders inside the file in the argument. This is why the output was Hello.java, as seen in the screenshot.
+* **Why This Output**: When using this command, it shows the files and folders inside the file in the argument. Unlike directories, since there is no files inside a file, the output turned out to be the input as seen in the screenshot.
 * **Error?** : The output is not an error.
 
 **3.　Using cat command**
