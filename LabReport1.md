@@ -60,7 +60,7 @@
 
 **2.　Using ls command**
 
-![Image](ls%20file.png)
+![Image](lsfile.png)
 
 * **Working Directory**: The working directory was /home/lecture1.
 * **Why This Output**: When using this command, it shows the files and folders inside the file in the argument. Unlike directories, since there is no files inside a file, the output turned out to be the input as seen in the screenshot.
