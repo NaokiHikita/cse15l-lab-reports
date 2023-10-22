@@ -60,10 +60,10 @@
 
 **2.　Using ls command**
 
-![Image](lsfile.png)
+![Image](ls%20file.png)
 
 * **Working Directory**: The working directory was /home/lecture1.
-* **Why This Output**: When using this command, it shows the files and folders inside the file in the argument. Unlike directories, since there is no files inside a file, the output turned out to be the input as seen in the screenshot.
+* **Why This Output**: When using this command, it shows the files and folders inside the file in the argument. Unlike directories, since there is no files inside a file, the output turned out to be the input regardless of the file type. For Hello.java, "Hello.java" was the output, for Hello.class, "Hello.class" was the output, for README, "README" was the output, and for the text file in the messages, the name of that text file was the output, as seen in the screenshot.
 * **Error?** : The output is not an error.
 
 **3.　Using cat command**
