@@ -62,7 +62,7 @@
 
 ![Image](ls%20file.png)
 
-* **Working Directory**: The working directory was /home/lecture1 except for "/home/lecture1/messages/en-us.txt which was /home.
+* **Working Directory**: The working directory was /home/lecture1.
 * **Why This Output**: When using this command, it shows the files and folders inside the file in the argument. Unlike directories, since there is no files inside a file, the output turned out to be the argument, regardless of the file type or the file path. To illustrate, for Hello.java, "Hello.java" was the output and for Hello.class, "Hello.class" was the output. As for the text file in the messages, for messages/en-us.txt (which is the relative path), "messages/en-us.txt" was the output and for /home/lecture1/messages/en-us.txt (which is the absolute path), "/home/lecture1/messages/en-us.txt" was the output.
 * **Error?** : The output is not an error.
 
