@@ -1,4 +1,4 @@
-**# Lab Report 1
+# Lab Report 1
 ## 1. Part 1
 **1.　My StringServer.java Code**
 
@@ -23,15 +23,15 @@
 ## 2. Part 2
 **1.　The path to the private key**
 
-![Image](cd%20directory.png)
+![Image](private%20key%path.png)
 
 **2.　The path to the public key**
 
-![Image](ls%20directory.png)
+![Image](public%20key%path.png)
 
 **3.　A specific terminal interaction**
 
-![Image](cat%20directory.png)
+![Image](terminal%20interaction.png)
 
 ## 3. Part 3
 **What I learned from Week 2 & 3**
