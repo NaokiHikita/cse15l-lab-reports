@@ -1,4 +1,4 @@
-# Lab Report 1
+# Lab Report 2
 ## 1. Part 1
 **1.　My StringServer.java Code**
 
