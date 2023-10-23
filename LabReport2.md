@@ -8,16 +8,16 @@
 
 ![Image](Hello.png)
 
-* **Which methods are called?**: The .
-* **Relevant arguments/fields?**: The relevant values are Integer field n, String field s, 
+* **Which methods are called?**: The method that was called was the handleRequest method.
+* **Relevant arguments/fields?**: The relevant values are Integer field n, String field s, and the URI 0-0-0-0-4000-bfql6t54cpomfa3sn07sg2qaos.us.edusercontent.com/add-message?s=Hello.
 * **How do the relevant fields change?** : The Integer field n changes from 0 to 1 and the String field s changes from "" to "1. Hello \n".
 
 **3.　Adding "How are you"**
 
 ![Image](How%20are%20you.png)
 
-* **Which methods are called?**: The working directory was /home.
-* **Relevant arguments/fields?**: When using this command, it shows the files and folders inside the current working directory. This is why the output was lecture1, as seen in the screenshot.
+* **Which methods are called?**: The method that was called was the handleRequest method.
+* **Relevant arguments/fields?**: The relevant values are Integer field n, String field s, and the URI 0-0-0-0-4000-bfql6t54cpomfa3sn07sg2qaos.us.edusercontent.com/add-message?s=How%20are%20you.
 * **How do the relevant fields change?** : The Integer field n changes from 1 to 2 and the String field s changes from "1. Hello" to "1. Hello" in the first line and "2. How+are+you" in the second line.
 
 ## 2. Part 2
