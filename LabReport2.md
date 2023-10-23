@@ -2,11 +2,11 @@
 ## 1. Part 1
 **1.　My StringServer.java Code**
 
-![Image](cd.png)
+![Image](StringServer.png)
 
 **2.　Adding "Hello"**
 
-![Image](ls.png)
+![Image](Hello.png)
 
 * **Which methods are called?**: The working directory was /home.
 * **Relevant arguments/fields?**: When using this command, it shows the files and folders inside the current working directory. This is why the output was lecture1, as seen in the screenshot.
@@ -14,7 +14,7 @@
 
 **3.　Adding "How are you"**
 
-![Image](cat.png)
+![Image](How%20are%20you.png)
 
 * **Which methods are called?**: The working directory was /home.
 * **Relevant arguments/fields?**: When using this command, it shows the files and folders inside the current working directory. This is why the output was lecture1, as seen in the screenshot.
