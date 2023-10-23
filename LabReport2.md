@@ -36,4 +36,4 @@
 ## 3. Part 3
 **What I learned from Week 2 & 3**
 
-The 
+The most interesting thing I learned from Week 2 & 3 is how url has parts and each of them has its own meaning. To illustrate, I never knew that the url I have taken for granted has a domain, which is is like the title/owner of the url, path, which specifies the file the url wants to show by going from the parent folder of the file and the parent folder of that folder, query, which is used to assign certain condition of the path, and anchor, which assigns certain part of the webpage. It was intriguing since I know how url works, I am able to make webpages using github which behaves differently depending on the argument of the query. 
