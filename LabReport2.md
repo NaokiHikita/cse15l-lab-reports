@@ -23,11 +23,11 @@
 ## 2. Part 2
 **1.　The path to the private key**
 
-![Image](private%20key%path.png)
+![Image](private%20key%20path.png)
 
 **2.　The path to the public key**
 
-![Image](public%20key%path.png)
+![Image](public%20key%20path.png)
 
 **3.　A specific terminal interaction**
 
