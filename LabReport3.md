@@ -40,7 +40,8 @@ at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
 FAILURES!!!
 ```
 **4. Bug**
-- Before
+
+**Before**
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
@@ -50,7 +51,7 @@ static int[] reversed(int[] arr) {
   return arr;
 }
 ```
-- After
+**After**
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
