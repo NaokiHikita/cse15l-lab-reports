@@ -65,6 +65,7 @@ static int[] reversed(int[] arr) {
 }
 ```
 **Explanation**
+
 Initially, the second for statement was copying elements from an empty array newArray. Hence, the output was always going to be an empty array. In order to fix this, newArray must be a copy of the original arr, which is why the first for statement is added. Now, the second for statment refers to the elements of original arr in reverse order, giving the output we want.
 ## 2. Part 2: Researching Commands: grep
 > The working directory for part 2 is /technical
