@@ -26,7 +26,7 @@
 
 **Key Pressed**: ``` <up><up><up><up><up><up><up><up><up><up><up><enter>, <x><i><2><esc><:><w><p><enter> ```
 
-**Why This Input**: The "*vim ListExamples.java*" command was 11 up in the search history, so I used up arrow to access it. Then, since the cursor was already on the "1" of input1 which I wanted to edit, I used x to delete the character on the cursor, i to change to insert mode, 2 to insert "2", and esc and :wp to save and exit from vim.
+**Why This Input**: The "*vim ListExamples.java*" command was 11 up in the search history, so I used up arrow to access it. Then, since the cursor was already on the "1" of input1 which I wanted to edit, I used x to delete the character on the cursor, i to change to insert mode, 2 to insert "2", esc to exit insert mode, and :wp to save and exit from vim.
 ## 5. Step 8
 
 ![Image](Step8.png)
