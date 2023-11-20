@@ -17,7 +17,7 @@
 
 ![Image](Step6.png)
 
-**Key Pressed**: *<up><up><up><up><up><up><up><up><up><up><up><enter>, <up><up><up><up><up><up><up><up><up><enter>*
+**Key Pressed**: *<up><up><up><up><up><up><up><up><up><up><up><enter>,<up><up><up><up><up><up><up><up><up><enter>*
 
 **Why This Input**: The "*cd lab7*" command was 11 up in the search history, so I used up arrow to access it. Then, the "*bash test.sh*" command was 9 up in the search history, so I used up arrow to access it.
 ## 4. Step 7
@@ -38,6 +38,6 @@
 
 ![Image](Step9.png)
 
-**Key Pressed**: *<up><up><up><up><up><up><up><up><up><up><up><enter>, <up><up><up><up><up><up><up><up><up><up><up><enter>, <up><up><up><up><up><up><up><up><up><up><up><enter>*
+**Key Pressed**: *<up><up><up><up><up><up><up><up><up><up><up><enter>,<up><up><up><up><up><up><up><up><up><up><up><enter>,<up><up><up><up><up><up><up><up><up><up><up><enter>*
 
 **Why This Input**: The "*git add ListExamples.java*" command was 11 up in the search history, so I used up arrow to access it. Then, the "*git commit -m "Edited ListExamples.java"*" command was 11 up in the search history, so I used up arrow to access it. Finally, "*git push*" command was 11 up in the search history, so I used up arrow to access it.
