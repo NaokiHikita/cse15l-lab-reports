@@ -3,7 +3,7 @@
 
 ![Image](Step4.png)
 
-**Key Pressed**: *<up><enter>*
+**Key Pressed**: '*<up><enter>*'
 
 **Why This Input**: The "*ssh cs15lfa23ot@ieng6.ucsd.edu*" command was 1 up in the search history, so I used up arrow to access it.
 ## 2. Step 5
