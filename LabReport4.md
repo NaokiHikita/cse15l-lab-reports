@@ -1,75 +1,37 @@
 # Lab Report 4
-## 1. Example of using the command with no arguments
-**1.　Using cd command**
+## 1. Step 4
 
-![Image](cd.png)
+![Image](Step4.png)
 
-* **Working Directory**: The working directory was /home/lecture1.
-* **Why This Output**: When using this command, it sets the directory to /home. This is why the directory was moved from lecture1 to home, as seen in the screenshot.
-* **Error?** : The output is not an error.
+**Key Pressed**: *<up><enter>*
+**Why This Input**: The *ssh cs15lfa23ot@ieng6.ucsd.edu* command was 1 up in the search history, so I used up arrow to access it.
+## 2. Step 5
 
-**2.　Using ls command**
+![Image](Step5.png)
 
-![Image](ls.png)
+**Key Pressed**: *<up><up><up><up><up><up><up><up><up><up><up><enter>*
+**Why This Input**: The *git clone git@github.com:ucsd-cse15l-s23/lab7.git* command was 11 up in the search history, so I used up arrow to access it.
+## 3. Step 6
 
-* **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it shows the files and folders inside the current working directory. This is why the output was lecture1, as seen in the screenshot.
-* **Error?** : The output is not an error.
+![Image](Step6.png)
 
-**3.　Using cat command**
+**Key Pressed**: *<up><up><up><up><up><up><up><up><up><up><up><enter>, <up><up><up><up><up><up><up><up><up><enter>*
+**Why This Input**: The *cd lab7* command was 11 up in the search history, so I used up arrow to access it. Then, the *bash test.sh* command was 9 up in the search history, so I used up arrow to access it.
+## 4. Step 7
 
-![Image](cat.png)
+![Image](Step7.png)
 
-* **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it tried to print the content of the file(s) of the argument. Since there was not any argument, the output was nothing and the terminal is waiting for the next input. When something is typed in here, it prints out the input into a new line. This was resolved using 'Ctrl + C'. 
-* **Error?** : The output is not an error.
+**Key Pressed**: *<up><up><up><up><up><up><up><up><up><up><up><enter>, <x><i><2><esc><:><w><p><enter>*
+**Why This Input**: The *vim ListExamples.java* command was 11 up in the search history, so I used up arrow to access it. Then, since the cursor was already on the "1" of input1 which I wanted to edit, I used x to delete the character on the cursor, i to change to insert mode, 2 to insert "2", and esc and :wp to save and exit from vim.
+## 5. Step 8
 
-## 2. Example of using the command with a path to a directory as an argument
-**1.　Using cd command**
+![Image](Step8.png)
 
-![Image](cd%20directory.png)
+**Key Pressed**: *<up><up><enter>*
+**Why This Input**: The *bash test.sh* command was 2 up in the search history, so I used up arrow to access it.
+## 6. Step 9
 
-* **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it sets the directory to the given directory in the argument, lecture1. This is why the directory was moved from home to lecture1, as seen in the screenshot.
-* **Error?** : The output is not an error.
+![Image](Step9.png)
 
-**2.　Using ls command**
-
-![Image](ls%20directory.png)
-
-* **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it shows the files and folders inside the given directory in the argument, lecture1. This is why the output was "Hello.class Hello.java messages README", as seen in the screenshot.
-* **Error?** : The output is not an error.
-
-**3.　Using cat command**
-
-![Image](cat%20directory.png)
-
-* **Working Directory**: The working directory was /home.
-* **Why This Output**: When using this command, it tried to print the content of the file(s) of the argument. Since the argument was a directory, it could not print out its content and sent an error message, as seen in the screenshot
-* **Error?** : The output is an error because cat is meant to take file(s) as an argument and not a directory.
-
-## 3. Example of using the command with a path to a file as an argument
-**1.　Using cd command**
-
-![Image](cd%20file.png)
-
-* **Working Directory**: The working directory was /home/lecture1.
-* **Why This Output**: When using this command, it sets the working directory to the directory in the argument.Since the argument is a file and not a directory, it sents out an error message, as seen in the screenshot.
-* **Error?** : The output an error because the cd is meant to directory/no argument as an argument and not a file.
-
-**2.　Using ls command**
-
-![Image](ls%20file.png)
-
-* **Working Directory**: The working directory was /home/lecture1.
-* **Why This Output**: When using this command, it shows the files and folders inside the file in the argument. Unlike directories, since there is no files inside a file, the output turned out to be the argument, regardless of the file type or the file path. To illustrate, for Hello.java, "Hello.java" was the output and for Hello.class, "Hello.class" was the output. As for the text file in the messages, for messages/en-us.txt (which is the relative path), "messages/en-us.txt" was the output and for /home/lecture1/messages/en-us.txt (which is the absolute path), "/home/lecture1/messages/en-us.txt" was the output.
-* **Error?** : The output is not an error.
-
-**3.　Using cat command**
-
-![Image](cat%20file.png)
-
-* **Working Directory**: The working directory was /home/lecture1.
-* **Why This Output**: When using this command, it prints the content of the file. This is why all the codes in Hello.java was printed out, as seen in the screenshot.
-* **Error?** : The output is not an error.
+**Key Pressed**: *<up><up><up><up><up><up><up><up><up><up><up><enter>, <up><up><up><up><up><up><up><up><up><up><up><enter>, <up><up><up><up><up><up><up><up><up><up><up><enter>*
+**Why This Input**: The *git add ListExamples.java* command was 11 up in the search history, so I used up arrow to access it. Then, the *git commit -m "Edited ListExamples.java"* command was 11 up in the search history, so I used up arrow to access it. Finally, *git push* command was 11 up in the search history, so I used up arrow to access it.
