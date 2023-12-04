@@ -6,7 +6,7 @@ Hi, I'm Naoki. While running tests for my ListExample.java, I ran into a symptom
 
 ![Image](symptom.png)
 
-From this output, I am guessing that my code is not working when adding the first element of either list1 or list2, or the two lists have the same element, but I am not sure on how to determine the bug.
+From this output, I am guessing that there is no compliation errors and that there is an error when adding the first element of either list1 or list2, or the two lists have the same element, but I am not sure on how to determine the bug.
 
 For your information, these are my file structure and codes for each file.
 
@@ -17,26 +17,7 @@ For your information, these are my file structure and codes for each file.
 import java.util.ArrayList;
 import java.util.List;
 
-interface StringChecker { boolean checkString(String s); }
-
 class ListExamples {
-
-  static List<String> result = new ArrayList<>();
-  // Returns a new list that has all the elements of the input list for which
-  // the StringChecker returns true, and not the elements that return false, in
-  // the same order they appeared in the input list;
-  static List<String> filter(List<String> list, StringChecker sc) {
-    if(list.size() == 0) { return list; }
-    result.clear();
-    for(String s: list) {
-      if(sc.checkString(s)) {
-        result.add(s);
-      }
-    }
-    return result;
-  }
-
-
   // Takes two sorted list of strings (so "a" appears before "b" and so on),
   // and return a new list that has all the strings in both list in sorted order.
   static List<String> merge(List<String> list1, List<String> list2) {
@@ -79,12 +60,6 @@ import org.junit.*;
 import java.util.Arrays;
 import java.util.List;
 
-class IsMoon implements StringChecker {
-  public boolean checkString(String s) {
-    return s.equalsIgnoreCase("moon");
-  }
-}
-
 public class TestListExamples {
   @Test(timeout = 500)
   public void testMerge1() {
@@ -102,3 +77,5 @@ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUnitCore TestListExamples
 ```
 **2. TA's Response**
+Thanks for asking, Naoki! To answer your question, since ou already have some guesses for you bug(s), try adding more test cases to distinguish whether each guessed bug are right or not. To show you an exmaple, try a test case with list1 and list2 not sharing any element in common. This should test one of your guessed bug while ignoring the effect of other. Additionally, note that there could also be other bugs you might not have in mind right now. Good luck!
+**
