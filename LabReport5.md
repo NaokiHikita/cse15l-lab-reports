@@ -123,5 +123,5 @@ Then, the output of the tests came out to be the screenshot below.
 ![Image](symptom2.png)
 
 From this, I determined that the error occurs when list1 and list2 have same elements, regardless of there position. In other words, there is an bug in line 12-16 of ListExamples.java where the code runs for a case when list1.get(index1) and list2.get(index2) is the same element. The error is that the skips to add list2.get(index2) because the index2 gets incremented without being added to the result list.
-In order to fix this, we need to delete line 15 so that the index2 does not move and check for it again by making comparison to the next element of list1.
+In order to fix this, we need to delete line 15 so that the index2 does not move and checks for it again by making comparison to the next element of list1 in the next run of the loop.
 ## 2. Debugging Scenario
