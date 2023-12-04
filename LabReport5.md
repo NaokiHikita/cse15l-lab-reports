@@ -79,6 +79,7 @@ public class TestListExamples {
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUnitCore TestListExamples
 ```
+
 **2. TA's Response**
 Thanks for asking, Naoki! To answer your question, since ou already have some guesses for you bug(s), try adding more test cases to distinguish whether each guessed bug are right or not and run grade.sh again. To show you an exmaple, try a test case with list1 and list2 not sharing any element in common. This should test one of your guessed bug while ignoring the effect of other. Additionally, note that there could also be other bugs you might not have in mind right now. Good luck!
 
@@ -122,6 +123,7 @@ public class TestListExamples {
   }
 }
 ```
+
 Then, the output of the tests came out to be the screenshot below.
 
 ![Image](symptom2.png)
