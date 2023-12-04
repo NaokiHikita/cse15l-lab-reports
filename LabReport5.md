@@ -13,6 +13,7 @@ For your information, these are my file structure and codes for each file.
 ![Image](structure.png)
 
 * **ListExamples.java**
+
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -51,7 +52,9 @@ class ListExamples {
   }
 }
 ```
+
 * **TestListExamples.java**
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -69,7 +72,9 @@ public class TestListExamples {
   }
 }
 ```
+
 * **grade.sh**
+
 ```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUnitCore TestListExamples
@@ -81,6 +86,7 @@ Thanks for asking, Naoki! To answer your question, since ou already have some gu
 Using your advice, I added more test cases to TestListExamples.java as below.
 
 * **TestListExamples.java**
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
