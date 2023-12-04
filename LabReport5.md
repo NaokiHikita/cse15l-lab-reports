@@ -6,7 +6,7 @@ Hi, I'm Naoki. While running tests for my ListExample.java, I ran into a symptom
 
 ![Image](symptom.png)
 
-From this output, I am guessing that there is no compliation errors and that there is an error when adding the first element of either list1 or list2, or the two lists have the same element, but I am not sure on how to determine the bug.
+From this output, I am guessing that there is no compliation errors, meaning that grade.sh is fine and that I need to fix ListExample.java. To be specific, I think there is an error when adding the first element of either list1 or list2, or the two lists have the same element. I am not sure on what to do from here though.
 
 For your information, these are my file structure and codes for each file.
 
@@ -78,4 +78,46 @@ java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUn
 ```
 **2. TA's Response**
 Thanks for asking, Naoki! To answer your question, since ou already have some guesses for you bug(s), try adding more test cases to distinguish whether each guessed bug are right or not. To show you an exmaple, try a test case with list1 and list2 not sharing any element in common. This should test one of your guessed bug while ignoring the effect of other. Additionally, note that there could also be other bugs you might not have in mind right now. Good luck!
-**
+
+**3. Student's Response**
+Using your advice, I added more test cases to TestListExamples.java as below.
+
+* **TestListExamples.java**
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.Arrays;
+import java.util.List;
+
+public class TestListExamples {
+  @Test(timeout = 500)
+  public void testMerge1() {
+    List<String> list1 = Arrays.asList("a", "b", "c");
+    List<String> list2 = Arrays.asList("a", "d");
+    List<String> merged = ListExamples.merge(list1, list2);
+    List<String> expected = Arrays.asList("a", "a", "b", "c", "d");
+    assertEquals(expected, merged);
+  }
+
+  @Test(timeout = 500)
+  public void testMerge2() {
+    List<String> list1 = Arrays.asList("a", "c", "e");
+    List<String> list2 = Arrays.asList("b", "d");
+    List<String> merged = ListExamples.merge(list1, list2);
+    List<String> expected = Arrays.asList("a", "b", "c", "d", "e");
+    assertEquals(expected, merged);
+  }
+
+  @Test(timeout = 500)
+  public void testMerge3() {
+    List<String> list1 = Arrays.asList("a", "c", "d");
+    List<String> list2 = Arrays.asList("b", "c", "d");
+    List<String> merged = ListExamples.merge(list1, list2);
+    List<String> expected = Arrays.asList("a", "b", "c", "c", "d", "d");
+    assertEquals(expected, merged);
+  }
+}
+```
+Then, the output of the tests came out to be the screenshot below.
+
+![Image](symptom2.png)
