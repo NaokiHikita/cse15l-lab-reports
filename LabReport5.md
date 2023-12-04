@@ -77,7 +77,7 @@ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUnitCore TestListExamples
 ```
 **2. TA's Response**
-Thanks for asking, Naoki! To answer your question, since ou already have some guesses for you bug(s), try adding more test cases to distinguish whether each guessed bug are right or not. To show you an exmaple, try a test case with list1 and list2 not sharing any element in common. This should test one of your guessed bug while ignoring the effect of other. Additionally, note that there could also be other bugs you might not have in mind right now. Good luck!
+Thanks for asking, Naoki! To answer your question, since ou already have some guesses for you bug(s), try adding more test cases to distinguish whether each guessed bug are right or not and run grade.sh again. To show you an exmaple, try a test case with list1 and list2 not sharing any element in common. This should test one of your guessed bug while ignoring the effect of other. Additionally, note that there could also be other bugs you might not have in mind right now. Good luck!
 
 **3. Student's Response**
 Using your advice, I added more test cases to TestListExamples.java as below.
@@ -124,4 +124,5 @@ Then, the output of the tests came out to be the screenshot below.
 
 From this, I determined that the error occurs when list1 and list2 have same elements, regardless of there position. In other words, there is an bug in line 12-16 of ListExamples.java where the code runs for a case when list1.get(index1) and list2.get(index2) is the same element. The error is that the skips to add list2.get(index2) because the index2 gets incremented without being added to the result list.
 In order to fix this, we need to delete line 15 so that the index2 does not move and checks for it again by making comparison to the next element of list1 in the next run of the loop.
-## 2. Debugging Scenario
+## 2. Reflection
+The most useful think I learned in the second half of this quarter would be vim. I did not know that you could edit a file through a terminal which helped me a lot with working with files in remote server. 
