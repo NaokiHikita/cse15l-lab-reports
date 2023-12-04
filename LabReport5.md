@@ -49,8 +49,6 @@ class ListExamples {
     }
     return result;
   }
-
-
 }
 ```
 * **TestListExamples.java**
